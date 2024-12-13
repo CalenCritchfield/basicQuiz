@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2025 Work Success Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app">
+      <div class="video-background">
+        <video autoplay muted loop id="background-video">
+          <source src="background.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <h1>What’s your work success score for 2025?</h1>
+      <div class="quiz">
+        <h2 id="question">Question goes here</h2>
+        <div id="answer-buttons">
+          <button class="btn"></button>
+          <button class="btn"></button>
+          <button class="btn"></button>
+          <button class="btn"></button>
+        </div>
+        <button id="next-btn" style="display: none">Next</button>
+      </div>
+      <div id="result-image-container" class="result-image-container">
+        <img
+          id="result-image"
+          class="result-image"
+          src=""
+          alt="Result Image"
+          style="display: none"
+        />
+      </div>
+      <div id="result-header"></div>
+      <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
